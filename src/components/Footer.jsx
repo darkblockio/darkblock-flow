@@ -42,7 +42,7 @@ export default function Footer() {
         <SocialIconLink href="http://discord.darkblock.io/" target="_blank" aria-label="Discord">
             <FaDiscord />
             </SocialIconLink>
-          <SocialIconLink href="https://github.com" target="_blank" aria-label="Github">
+          <SocialIconLink href="https://github.com/darkblockio/darkblock-flow" target="_blank" aria-label="Github">
             <FaGithub />
           </SocialIconLink>
          

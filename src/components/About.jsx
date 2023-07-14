@@ -36,7 +36,7 @@ const AboutSection = () => {
           This demo was built as part of the “Flow to the Future” Flow Hackthon. It demonstrates how Darkblock token-bound content can be accessed via ownership of a Flow NFT. The Darkblock token-bound content has been added by the project and NFT creators.
         </p>
         <p>Learn more about Darkblock and this project:</p>
-        <Link href="https://github.com/yourprojectlink">Github of this project</Link>
+        <Link href="https://github.com/darkblockio/darkblock-flow">Github of this project</Link>
         <Link href="https://darkblock.io">Darkblock.io</Link>
         <Link href="https://docs.darkblock.io">docs.darkblock.io</Link>
         <Link href="https://twitter.com/darkblockio">https://twitter.com/darkblockio</Link>
