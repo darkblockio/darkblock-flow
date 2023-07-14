@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.responsive-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px; /* change this to adjust the gap between the two components */
+  transition: grid-template-columns 0.5s ease-in-out;
+}
+
+/* for screen sizes greater than 768px, adjust this value as per your requirement */
+@media (min-width: 1280px) {
+  .responsive-container {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+
+
+.App {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -1px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
