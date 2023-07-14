@@ -68,11 +68,12 @@ const ScrollingText = () => {
   const stayDelay = 2000;
   const fadeDelay = 1000;
 
-  const texts = [
+  const texts = React.useMemo(() => [
     { text: "Meet Darkblock", start: 0, end: 2000 },
     { text: "A decentralized protocol for token-bound content", start: 2000, end: 4000 },
     { text: "Enabling next-gen content platforms", start: 4000, end: 6000 },
-  ];
+  ], []);
+  
 
   const [opacity, setOpacity] = useState(texts.map((_) => 0));
 
