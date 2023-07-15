@@ -29,14 +29,14 @@ const ScrollWheelAnimation = keyframes`
     opacity: 1;
   }
   100% {
-    top: 60px;
+    top: 40px;
     opacity: 0;
   }
 `;
 
 const Mouse = styled.div`
   width: 50px;
-  height: 100px;
+  height: 95px;
   border: 2px solid white;
   border-radius: 30px;
   position: relative;
@@ -86,9 +86,9 @@ const MouseScroll = () => {
 
   return (
     display && (
-      <div style={{ position: 'fixed', bottom: '100px', width: '100%', zIndex: 2, textAlign: 'center', opacity, transition: 'opacity 0.5s' }}>
+      <div style={{ position: 'fixed', bottom: '50px', width: '100%', zIndex: 2, textAlign: 'center', opacity, transition: 'opacity 0.5s' }}>
         <Mouse />
-        <ScrollDown>Scroll Down</ScrollDown>
+        <ScrollDown style={{paddingTop: "8px"}}>Scroll Down</ScrollDown>
       </div>
     )
   );
