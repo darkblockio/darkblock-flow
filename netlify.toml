@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  environment = { CI = "false" }
+
+[context.production]
+  command = "npm run build"
+  publish = "build"
+  environment = { CI = "false" }
