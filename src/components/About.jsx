@@ -30,7 +30,7 @@ const Link = styled.a`
 const AboutSection = () => {
   return (
     <FullWidthContainer>
-      <AboutContainer>
+      <AboutContainer style={{paddingBottom: "100px", zIndex: "12"}}>
         <h2>About this site and useful links</h2>
         <p>
           This demo was built as part of the “Flow to the Future” Flow Hackthon. It demonstrates how Darkblock token-bound content can be accessed via ownership of a Flow NFT. The Darkblock token-bound content has been added by the project and NFT creators.
@@ -39,8 +39,8 @@ const AboutSection = () => {
         <Link href="https://github.com/darkblockio/darkblock-flow">Github of this project</Link>
         <Link href="https://darkblock.io">Darkblock.io</Link>
         <Link href="https://docs.darkblock.io">docs.darkblock.io</Link>
-        <Link href="https://twitter.com/darkblockio">https://twitter.com/darkblockio</Link>
-        <Link href="https://discord.darkblock.io">http://discord.darkblock.io</Link>
+        <Link href="https://twitter.com/darkblockio">Follow us on Twitter</Link>
+        <Link href="https://discord.darkblock.io">Join our Discord</Link>
       </AboutContainer>
     </FullWidthContainer>
   );

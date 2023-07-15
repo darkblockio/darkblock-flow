@@ -176,7 +176,8 @@ const Wrapper = styled.div`
   gap: 10px;
   align-items: center;
   justify-content: center;
-  padding: 150px;
+  padding: 50px;
+  padding-top: 150px;
 
   button {
     width: 100px;
@@ -241,13 +242,21 @@ const Wrapper = styled.div`
   button.nftDiv p {
     font-size: 14px;
   }
+
+  @media (max-width: 1280px) {
+    padding: 16px;
+  }
+
+  @media (max-width: 800px) {
+    padding-bottom: 50px;
+  }
   
 `;
 
 const IframeContainer = styled.div`
   position: relative;
   width: 100%; // This will make the iframe responsive
-  padding-top: 56.25%; // This is based on the aspect ratio 16:9 (9/16 = 0.5625)
+  padding-top: 70%; // This is based on the aspect ratio 16:9 (9/16 = 0.5625)
   margin-bottom: 100px;
   overflow: hidden;
 
@@ -258,6 +267,10 @@ const IframeContainer = styled.div`
     width: 100%;
     height: 100%;
     border: none; // This line removes the border
+  }
+
+  @media (max-width: 800px) {
+    padding-top: 100%;
   }
 `;
 

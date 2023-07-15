@@ -13,7 +13,11 @@ const Wrapper = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 0px 50px;
+
+  h1 {
+    font-size: 2rem;  // Adjust to your desired size
+  }
 
   button {
     background-color: white;
@@ -31,10 +35,25 @@ const Wrapper = styled.nav`
     }
   }
 
+  @media (max-width: 768px) {
+    padding: 5px 25px;  // Reduce padding to reduce navbar height
+
+    h1 {
+      font-size: 1.5rem;  // Reduce font size for smaller screens
+    }
+
+    button {
+      padding: 2px 20px;  // Reduce button padding for smaller screens
+      height: 40px;  // Reduce button height for smaller screens
+      font-size: 16px;  // Reduce font size for smaller screens
+    }
+  }
+
   div {
     display: flex;
     gap: 15px;
   }
+
   box {
     display: flex;
     flex-direction: column;

@@ -89,7 +89,7 @@ function MintComponent() {
 
   return (
   <Wrapper>
-    <h1>Mint this NFT to access <br></br> it’s token-bound content</h1>
+    <h1>Mint this NFT to access <br></br> its token-bound content</h1>
     <main>
       
         <div>

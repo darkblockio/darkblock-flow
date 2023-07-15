@@ -23,7 +23,7 @@ function App() {
         <MintComponent />
         <ShowNfts />
       </div>
-      <AboutSection />
+      <AboutSection style={{zIndex: "11"}}/>
       <Footer />
 
     </div>
